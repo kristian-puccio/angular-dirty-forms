@@ -1,0 +1,37 @@
+{
+  "name": "angular-dirty-forms",
+  "version": "0.0.0",
+  "description": "angular-dirty-forms ===================",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gulp": "*",
+    "event-stream": "*",
+    "gulp": "*",
+    "gulp-angular-templates": "*",
+    "gulp-concat": "git://github.com/floridoo/gulp-concat.git#sourcemap_pipe2",
+    "gulp-ngmin": "*",
+    "gulp-plumber": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "*",
+    "karma": "*",
+    "karma-chrome-launcher": "*",
+    "karma-firefox-launcher": "^0.1.3",
+    "karma-jasmine": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kristian-puccio/angular-dirty-forms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kristian-puccio/angular-dirty-forms/issues"
+  },
+  "homepage": "https://github.com/kristian-puccio/angular-dirty-forms"
+}

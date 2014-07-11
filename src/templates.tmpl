@@ -1,0 +1,25 @@
+<module>x</module>
+
+<template id="templates/form-group.html">
+    <div class="form-group" ng-class="{'has-error': isError}">
+        <label for="{{for}}" ng-class="{'col-sm-2':!isVertical, 'control-label':!isVertical}">{{label}}</label>
+        <div ng-class="{'col-sm-10': !isVertical}" ng-transclude></div>
+    </div>
+</template>
+
+<template id='templates/control-group.html'>
+    <div class="control-group" ng-class="{'error': isError}">
+        <label class="control-label" ng-if="label">{{label}}</label>
+        <div class="controls">
+            <div ng-transclude></div>
+        </div>
+    </div>
+</template>
+
+<template id="templates/alerts.html">
+    <div ng-controller="AlertCtrl" id="alerts">
+        <alert ng-repeat="alert in alerts" type="{{alert.type}}" close="closeAlert($index)">
+            {{alert.msg}}
+        </alert>
+    </div>
+</template>

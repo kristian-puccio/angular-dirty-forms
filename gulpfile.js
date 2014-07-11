@@ -19,7 +19,7 @@ gulp.task('build', function () {
         .pipe(concat('angular-dirty-forms.js'))
         .pipe(ngmin())
         .pipe(sourcemaps.write('.'))
-        .pipe(gulp.dest("./assets/js/"));
+        .pipe(gulp.dest("./dist/"));
 });
 
 gulp.task('watch', function() {

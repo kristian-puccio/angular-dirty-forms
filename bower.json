@@ -1,0 +1,23 @@
+{
+  "name": "angular-dirty-forms",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kristian-puccio/angular-dirty-forms",
+  "authors": [
+    "Kristian Puccio <kristian.puc>"
+  ],
+  "description": "Form handling for angular.js using bootstrap.",
+  "main": "dist/dirty-forms.js",
+  "keywords": [
+    "angular",
+    "bootstrap",
+    "forms"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
